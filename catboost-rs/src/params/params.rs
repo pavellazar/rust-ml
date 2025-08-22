@@ -1,5 +1,3 @@
-
-
 use std::collections::HashMap;
 
 #[derive(Debug, Default)]
@@ -9,7 +7,9 @@ pub struct Params {
 
 impl Params {
   pub fn new() -> Self {
-    Params { inner: HashMap::new() }
+    Params {
+      inner: HashMap::new(),
+    }
   }
   pub fn set(&mut self, key: &str, value: &str) {
     self.inner.insert(key.to_string(), value.to_string());
@@ -21,6 +21,8 @@ impl Params {
 
 impl Clone for Params {
   fn clone(&self) -> Self {
-    Params { inner: self.inner.clone() }
+    Params {
+      inner: self.inner.clone(),
+    }
   }
 }
