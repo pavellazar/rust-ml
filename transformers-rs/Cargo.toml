@@ -1,0 +1,9 @@
+[package]
+name = "transformers-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Rust equivalent of HuggingFace Transformers."
+
+[lib]
+name = "transformers_rs"
+path = "src/lib.rs"

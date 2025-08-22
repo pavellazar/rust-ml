@@ -1,0 +1,9 @@
+[package]
+name = "torch-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Rust equivalent of PyTorch."
+
+[lib]
+name = "torch_rs"
+path = "src/lib.rs"

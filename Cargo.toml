@@ -1,0 +1,14 @@
+[workspace]
+members = [
+  "tensorflow-rs",
+  "torch-rs",
+  "scikit-learn-rs",
+  "keras-rs",
+  "xgboost-rs",
+  "lightgbm-rs",
+  "catboost-rs",
+  "nltk-rs",
+  "spacy-rs",
+  "gensim-rs",
+  "transformers-rs",
+]

@@ -1,0 +1,9 @@
+[package]
+name = "scikit-learn-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Rust equivalent of scikit-learn."
+
+[lib]
+name = "scikit_learn_rs"
+path = "src/lib.rs"

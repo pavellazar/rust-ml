@@ -1,0 +1,9 @@
+[package]
+name = "lightgbm-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Rust equivalent of LightGBM."
+
+[lib]
+name = "lightgbm_rs"
+path = "src/lib.rs"

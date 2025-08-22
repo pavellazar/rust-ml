@@ -1,0 +1,9 @@
+[package]
+name = "xgboost-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Rust equivalent of XGBoost."
+
+[lib]
+name = "xgboost_rs"
+path = "src/lib.rs"

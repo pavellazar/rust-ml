@@ -1,0 +1,9 @@
+[package]
+name = "tensorflow-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Rust equivalent of TensorFlow."
+
+[lib]
+name = "tensorflow_rs"
+path = "src/lib.rs"

@@ -1,0 +1,9 @@
+[package]
+name = "gensim-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Rust equivalent of Gensim."
+
+[lib]
+name = "gensim_rs"
+path = "src/lib.rs"
